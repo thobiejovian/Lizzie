@@ -1,0 +1,330 @@
+
+body {
+  margin:0;
+  background: #4f4f4f;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* css buat header navigation */
+.navbar {
+  padding: 1em 0;
+  background: #3d3d3d;
+  z-index: 99999;
+  background-color: transparent;
+}
+
+.navbar a {
+  color: #f2f2f2 !important;
+  font-weight: 900;
+  font-size: 2.2em;
+  margin-left: 40px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+
+.nav-item {
+  margin-left: 1em;
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding: 10px 20px;
+  color: #f2f2f2;
+}
+
+.navbar-nav li a {
+  color: #f2f2f2;
+  font-family: 'Permanent Marker, cursive';
+  font-weight: 900;
+  font-size: 1.2rem;
+  margin-right: -20px;
+  font-style: normal;
+  padding: 1em 4em;
+
+}
+
+.navbar-nav li a i {
+  color:#f2f2f2;
+  font-weight: 900;
+  font-size: 1.3em;
+  margin-right: 30px;
+}
+
+/* css buat header navigation end */
+
+/* css buat section pertama */
+
+.section-pertama .container {
+  text-align: center;
+  height: 90vh;
+}
+
+.header-content {
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+}
+
+.video-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  z-index:-1;
+
+}
+.video-wrap video {
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.4;
+  background-size: cover;
+}
+
+.header-content p {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5em;
+    color: #FFF;
+    font-weight: 800;
+    line-height: 2.4em;
+    text-transform: uppercase;
+}
+
+/* css buat section pertama end */
+
+/* css buat section kedua */
+
+ .section-kedua {
+   background: #FCFBF8;
+ }
+
+ .about-us {
+   max-width: 50vw;
+ }
+
+.about-us h1{
+  font-family: 'Cabin Condensed', sans-serif;
+  text-transform: uppercase;
+  padding-top: 1.2em;
+  font-size: 4.5em;
+  letter-spacing: 5px;
+
+}
+
+.about-us p{
+  margin-top: 2em;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1em;
+}
+
+#about-us-span{
+  font-style: italic;
+  font-size: 1em;
+  color: red;
+  line-height: 1em;
+}
+/* css buat card */
+ .card-block{
+   font-family: 'Anton', sans-serif;
+   font-weight: 300;
+ }
+
+ .card-block h4{
+   padding: 1.5rem 1em;
+   font-size: 1.8em;
+   color: black;
+   text-transform: uppercase;
+   font-weight: 70;]
+   line-height: 1em;
+   display: block;
+ }
+ .card-block p{
+   padding-top: 20px;
+ }
+
+.card-block ul li{
+  margin: 0 !important;
+  padding: 30px !important;
+}
+
+.card-block ul li a i {
+color: #1a1a1a;
+font-size: 1.2em;
+}
+
+
+.card {
+  margin-top: 10em;
+}
+
+.card img{
+  height: 50vh;
+  width: 100%;
+  object-fit: cover;
+  filter: contrast(120%);
+}
+/* css buat section kedua  end */
+
+
+/* css buat section ketiga */
+.section-ketiga {
+
+}
+
+.parallax--bg {
+  background:  linear-gradient(
+          rgba(37, 37, 37, 0.55),
+          rgba(96, 96, 96, 0.9)
+        ), url(img/lizzie1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-left: -15px;
+  margin-right: -15px;
+  height: 1500px;
+  /*
+  fixed= parallax
+  scroll = normal
+  */
+}
+
+.album-detail {
+  color: white;
+}
+
+
+button {
+
+   position: relative;
+   display: block;
+   height: 45px;
+   width: 130px;
+   margin: 10px 7px;
+   padding: 5px 5px;
+   font-weight: 700;
+   font-size: 15px;
+   letter-spacing: 2px;
+   color: #e22e1c;
+   border: 2px #f01c0e solid;
+   border-radius: 4px;
+   text-transform: uppercase;
+   outline: 0;
+   overflow:hidden;
+   background: none;
+   z-index: 1;
+   cursor: pointer;
+   transition:         0.08s ease-in;
+   -o-transition:      0.08s ease-in;
+   -ms-transition:     0.08s ease-in;
+   -moz-transition:    0.08s ease-in;
+   -webkit-transition: 0.08s ease-in;
+
+
+}
+
+
+.fill:hover {
+  color: rgb(233, 33, 33);
+}
+
+.fill:before {
+  content: "";
+  position: absolute;
+  background: #ffffff;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100%;
+  z-index: -1;
+  -webkit-transition: top 0.2s ease-in;
+}
+
+.fill:hover:before {
+  top: 0;
+}
+
+
+
+.album-detail h3{
+  font-weight: 700;
+  font-size: 2.3em;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+ .album-detail span {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.3em;
+    color: #FFF;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.button-container ul {
+  list-style: none;
+  padding-left: 0 !important;
+}
+
+
+
+#listenTo {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.3em;
+    color: #FFF;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#decider{
+  font-weight: 700;
+  font-size: 3em;
+  text-transform: uppercase;
+
+}
+
+#view-more{
+  color: #FFF;
+  text-decoration: underline;
+
+}
+
+.music-button{
+  position: relative;
+  display: block;
+  height: 45px;
+  width: 200px;
+  margin: 10px 7px;
+  padding: 5px 5px;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: #f7f7f7;
+  border: 2px #f7f7f7 solid;
+  border-radius: 4px;
+  text-transform: uppercase;
+  outline: 0;
+  overflow:hidden;
+  background: none;
+  z-index: 1;
+  cursor: pointer;
+}
+
+footer {
+ background: #FCFBF8;
+}
+
+
+
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+    .header-content p {
+      font-size: 2em;
+    }
+
+    .section-pertama .container {
+
+      height: 85vh;
+    }
+  }

@@ -1,0 +1,45 @@
+<!-- Section ketiga Start -->
+
+<div class="container-fluid personil">
+  <div class="row personil-row">
+    <div class="col-md-3 personil-satu">
+      <div class="card border-0">
+        <img class="card-img-top" src="/img/izma1.jpg" alt="">
+        <div class="card-block">
+        <h3 class="card-title text-center">Izma</h3>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur</p>
+      </div>
+    </div>
+  </div>
+    <div class="col-md-3 personil-dua">
+      <div class="card">
+        <img class="card-img-top" src="/img/gitaris1.jpg" alt="">
+        <div class="card-block">
+        <h3 class="card-title text-center">Izma</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 personil-tiga">
+      <div class="card">
+        <img class="card-img-top" src="/img/bassis1.jpg" alt="">
+        <div class="card-block">
+        <h3 class="card-title text-center">teu</h3>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur</p>
+        </div>
+      </div>
+    </div>
+    <div class  ="col-md-3 personil-empat">
+      <div class="card">
+      <img class="card-img-top" src="/img/drummer1.jpg" alt="">
+      <div class="card-block">
+        <h3 class="card-title text-center">teu</h3>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur</p>
+      </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- section ketiga End -->
